@@ -1,0 +1,43 @@
+# Method 1
+
+# ignore code editors
+.vscode
+.idea
+
+# ignore Unity things
+Logs
+Packages
+UserSettings
+Library
+ProjectSettings
+Temp
+obj
+FileContentIndex
+ProjectSettings.json 
+
+# ignore Visual Studio Community
+*.sqlite
+*.csproj
+*.sln
+*.meta
+*.suo
+*.wsuo
+VSWorkspaceState.json
+UpgradeLog.htm
+UpgradeLog2.htm
+.vsconfig
+
+#ignore onedrive files
+/Assets/onedrive-sync
+
+
+# Method 2
+
+# Ignore everything
+#*
+# Except the "Assets/Scripts" folder
+#!Assets/
+#!Assets/git-sync
+#!Assets/git-sync/*
+#!Assets/git-sync/Scripts/*
+#Assets/git-sync/Scripts/*.meta
