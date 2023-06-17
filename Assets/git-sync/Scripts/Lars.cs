@@ -7,7 +7,7 @@ public class Lars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("hej 1234");
+        Debug.Log("hello world");
     }
 
     // Update is called once per frame
