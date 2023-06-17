@@ -12,9 +12,18 @@ Library
 ProjectSettings
 Temp
 obj
-Assembly-CSharp.csproj
-summer-start-2023.sln
+FileContentIndex
+ProjectSettings.json 
+*.sqlite
+*.csproj
+*.sln
 *.meta
+*.suo
+*.wsuo
+VSWorkspaceState.json
+UpgradeLog.htm
+UpgradeLog2.htm
+.vsconfig
 
 #ignore onedrive files
 /Assets/onedrive-sync
