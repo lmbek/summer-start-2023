@@ -440,7 +440,6 @@ GameObject:
   - component: {fileID: 601212220}
   - component: {fileID: 601212219}
   - component: {fileID: 601212218}
-  - component: {fileID: 601212222}
   - component: {fileID: 601212223}
   - component: {fileID: 601212224}
   m_Layer: 0
@@ -516,22 +515,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &601212222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601212216}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6513c559958e99f40b64a459a30dc3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 500
-  rotationSpeed: 10
-  waypoints: []
-  currentWaypointIndex: 0
 --- !u!54 &601212223
 Rigidbody:
   m_ObjectHideFlags: 0
